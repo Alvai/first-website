@@ -1,0 +1,9 @@
+Bonsoir , Comme peut le montrer le screen juste en dessous , j'ai 2 erreur dans mon css :(
+Mais ces 2 erreurs ne sont pas véridique car Le MDN qui est de source sur comme vous nous l'aviez dit , me dit que les propriétés css que j'ai utilisé sont valides :) le validateur ne doit pas être à jour ...
+Ces deux propriétés sont en "version de travail" et sont écrit comme non supporté sur Chrome et Firefox Alors que Justify-Self Marche exactement comme prévu sur les deux Navigateur :( Uniquement le flip ne marche pas sur chrome mais sur Firefox .
+Voila je met les liens MDN pour vérifier :)
+
+https://i.imgur.com/z9LYq77.png
+
+https://developer.mozilla.org/fr/docs/Web/CSS/image-orientation
+https://developer.mozilla.org/fr/docs/Web/CSS/justify- I

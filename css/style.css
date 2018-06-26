@@ -1,0 +1,556 @@
+/* Adding fonts */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Assets/Fonts/Roboto.ttf");
+}
+
+body {
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-template-rows: repeat(10, minmax(100px, auto));
+    align-items: stretch;
+}
+
+
+/* select all the sections in the grid */
+
+.Wrapper>section {
+    background: url('Assets/Pics/Backgrounds/Hillbilly.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.Nested {
+    grid-column: 1 / 6;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(2, minmax(50px, auto));
+    margin: 0;
+    height: 200px;
+}
+
+.Title {
+    font-size: 50px;
+    height: 90px;
+    width: 75%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    justify-self: start;
+    color: black;
+    text-transform: uppercase;
+    right: 0;
+}
+
+.RedTitle {
+    color: red;
+}
+
+.Logo {
+    height: 180px;
+    justify-self: start;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.Navi {
+    border: 2px black solid;
+    grid-column: 1 / 6;
+    grid-row: 2;
+}
+
+.Navi a {
+    color: black;
+}
+
+
+/* selecting all the visited links */
+
+a:visited {
+    color: green;
+}
+
+.MainNav {
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.Navi ol>li {
+    padding: 20px;
+    display: inline;
+}
+
+.Navi ul>li {
+    padding: 20px;
+    display: inline;
+}
+
+.Intro {
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+    border: 3px black solid;
+    border-radius: 25px;
+    background-size: auto;
+}
+
+.Intro * {
+    color: white;
+}
+
+.Spacing {
+    letter-spacing: 5px;
+}
+
+
+/* modify the cursor */
+
+.Welcome {
+    text-decoration: underline;
+    cursor: url('Assets/Cursor/ghost.cur'), pointer;
+}
+
+.English {
+    font-weight: bold;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+hr {
+    opacity: 0.2;
+    color: grey;
+}
+
+.LittleLogo {
+    width: 28px;
+    height: 28px;
+}
+
+.Flag {
+    width: 24px;
+    height: 15px;
+}
+
+table {
+    margin: auto;
+}
+
+.NoVisibility {
+    visibility: hidden;
+}
+
+.NoDisplay {
+    display: none;
+}
+
+audio {
+    width: 50%;
+}
+
+.Temple {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 4 / 6;
+    grid-row: 3 / 7;
+}
+
+
+/* select all the tables in the Temple section */
+
+.Temple table {
+    border: 3px dotted black;
+    width: 85%;
+    background-color: grey;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+
+/* select all the links in the Temple Section */
+
+.Temple a {
+    text-decoration: none;
+    color: white;
+    width: 200px;
+}
+
+.TempleIcon {
+    height: 75px;
+}
+
+meter {
+    width: 250px;
+}
+
+.Survivor {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 1 / 4;
+    grid-row: 6 / 8;
+}
+
+.SurvivorList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SurvivorBox {
+    grid-row: 2;
+    position: relative;
+    width: 74px;
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.SurvivorFace {
+    position: absolute;
+    height: 100px;
+    left: 0;
+    image-orientation: flip;
+    /* n'est pas supporté sur Chrome mais fonctionne sur firefox */
+}
+
+
+/* select all the survivor Names in survivors boxes */
+
+.SurvivorBox .SurvivorName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 3px;
+    font-size: 14px;
+}
+
+.Killer {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 1 / 4;
+    grid-row: 8 / 10;
+}
+
+.KillerList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.KillerBox {
+    grid-row: 2;
+    position: relative;
+    width: 74px;
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.KillerFace {
+    position: absolute;
+    height: 100px;
+    left: 0;
+}
+
+
+/* select all the survivor Names in survivors boxes */
+
+.KillerBox .KillerName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 3px;
+    font-size: 14px;
+}
+
+.Trailer {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 4 / 6;
+    grid-row: 7 / 10;
+}
+
+
+/* select all the iframes in the trailer section */
+
+.Trailer iframe {
+    border: none;
+    width: 90%;
+    height: 320px;
+}
+
+
+.Footer {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 1 / 6;
+    grid-row: 10 / 11;
+}
+
+.FootContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.GameLink {
+    font-size: 20px;
+}
+
+.NetworkLink {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.FooterIcon {
+    height: 20px;
+}
+
+
+/* page  Achat*/
+
+.BuyWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-template-rows: repeat(10, minmax(50px, auto));
+    align-items: stretch;
+}
+
+
+/* select all the section in the wrapper( grid ) */
+
+.BuyWrapper>section {
+    background: url('Assets/Pics/Backgrounds/Generic.png');
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.Main {
+    grid-column: 1/6;
+    grid-row: 3/10;
+    border: 2px black solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.Merch {
+    font-size: 10px;
+    text-align: right;
+    color: black;
+}
+
+.Star {
+    font-size: 15px;
+}
+
+.Goodies {
+    height: 750px;
+    width: 100%;
+}
+
+
+/* contact page */
+
+.ContactWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-template-rows: repeat(10, minmax(50px, auto));
+    align-items: stretch;
+}
+
+.ContactWrapper>section {
+    background: url('Assets/Pics/Backgrounds/Generic.png');
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.Main {
+    grid-column: 1/6;
+    grid-row: 3/10;
+    border: 2px black solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+form {
+    width: 250px;
+    justify-self: center;
+}
+
+fieldset {
+    width: 250px;
+    justify-self: center;
+}
+
+
+/* select the inputs with the Submit type */
+
+input[type="submit"] {
+    height: 35px;
+    width: 250px;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: 2px 1px 5px 5px black;
+}
+
+textarea {
+    border: 3px black dotted;
+}
+
+
+/* select the inputs with text type */
+
+input[type="text"] {
+    color: #90f;
+    border-radius: 12px;
+    box-shadow: 2px 1px 5px 5px black;
+}
+
+.Rules {
+    text-align: left;
+}
+
+.RuleList {
+    text-align: left;
+}
+
+
+/* killer page */
+
+.KillWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-template-rows: repeat(10, minmax(100px, auto));
+    align-items: stretch;
+    font-size: 15px;
+}
+
+
+/* select the sections in the grid*/
+
+.KillWrapper>section {
+    background: url('Assets/Pics/Backgrounds/Hillbilly.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.Main {
+    grid-column: 1/6;
+    grid-row: 3/10;
+    border: 2px black solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.Left {
+    text-align: left;
+}
+
+
+/* select all the images in the main section */
+
+.Main img {
+    height: 110px;
+}
+
+
+/* select the tables  in the main section */
+
+.Main table {
+    border: 1px black solid;
+}
+
+
+/* select the th in the main sections */
+.Main th {
+    border: 1px black solid;
+}
+/* select all the rows in the main sections */
+
+.Main td {
+    border: 1px black solid;
+}
+
+video {
+    width: 100%;
+}
+
+
+/*survivor page */
+
+.SurvWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-template-rows: repeat(10, minmax(100px, auto));
+    align-items: stretch;
+    font-size: 15px;
+}
+
+.SurvWrapper>section {
+    background: url('Assets/Pics/Backgrounds/Claudette.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.OtherFooter {
+    border: 3px black solid;
+    background-size: auto;
+    border-radius: 25px;
+    grid-column: 1 / 6;
+    grid-row: 10 / 11;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: compteListe;
+}
+
+li::before {
+    counter-increment: compteListe 1;
+    content: counter(compteListe) " ";
+}

@@ -1,0 +1,92 @@
+03.10.16/html-css/ex10.html
+10.10.16/html-css/ex17.html
+
+
+TRANSFORMATION TEXTE
+gras
+italique
+couleur mot/lettre-> code hexa
+couleur fond
+souligner
+centrer, justifier, uppercase...
+différence corps de texte / titre
+zone de texte (scroll, bordure arrondie pointillés, couleur, transparence...)
+utilisation polices spéciales
+masquer texte
+modification curseur
+espacer texte à gauche
+numéroter titres
+titres en haut de page avec séparation par un trait
+
+SELECTION
+div
+span
+class
+id
+sélectionner enfants directs, frères...
+sélectionner le 1er enfant
+sélectionner tous éléments sauf 1
+
+MARGES ET ESPACES
+retour à la ligne
+espace insécable
+padding
+margin
+espacer mots ou lettres dans une phrase
+positionner élément sur page
+
+CARACTERES SPECIAUX
+coeur
+pique
+carreau
+trèfle
+copyright
+
+LISTES
+ajouter caractère spécial ou une img devant chq élément de la liste
+liste ordonnée : numéroter éléments
+liste non ordonnée : mettre des puces
+cadre flottant coloré
+
+
+LIENS
+vers même onglet ou nouvel onglet
+2 pages qui renvoient l'une vers l'autre
+couleur qui change qd lien visité
+
+IMAGES
+insérer une img via son url
+redimensionner
+inverser img
+centrer
+flottante
+
+IFRAME
+vidéo
+page
+
+AUDIO/VIDEO
+insérer fichier audio/vidéo que l'utilisateur peut contrôler
+lancement automatique
+
+TABLEAUX
+titre
+bordures spéciales
+colonnes ou lignes multiples
+barres  de chargement
+cellules de couleur différentes
+colorer une ligne sur deux 
+bordures arrondies
+
+FORMULAIRES
+label
+input ou texterea
+différents types (password, mail, text...)
+boutons (collecte ou non info dans url page, ombre...)
+cases carrées/rondes à cocher
+liste de sélection
+date de naissance sous le format jj/mm/aa
+champ coloré
+texte exemple grisé dans champ
+fieldset
+
