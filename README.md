@@ -18,4 +18,4 @@ Open `index.html` in the browser !
 
 ## Support
 
-Please [open an issue](https://github.com/IvanMiIosevic/final-filer/issues/new) if you encounter any problems :relaxed:.
+Please [open an issue](https://github.com/IvanMiIosevic/first-website/issues/new) if you encounter any problems :relaxed:.
